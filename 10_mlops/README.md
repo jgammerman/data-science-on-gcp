@@ -24,6 +24,12 @@ In CloudShell, do the following steps:
     ```
     pip3 install google-cloud-aiplatform cloudml-hypertune kfp
     ```
+* Set the following variable:
+
+   ```
+    export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
+   ```
+  
 * Try running the standalone model file on a small sample:
     ```
     python3 model.py  --bucket <bucket-name> --develop
